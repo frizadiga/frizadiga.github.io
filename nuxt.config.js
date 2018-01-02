@@ -13,7 +13,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'frizadiga site', name: 'frizadiga site', content: 'frizadiga site' }
+      { hid: 'description', name: 'description', content: 'frizadiga site' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/hiu-favicon.png' }
