@@ -9,11 +9,11 @@ module.exports = {
   
   // ** Headers of the page
   head: {
-    title: 'hiu-nuxt',
+    title: 'frizadiga',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'frizadiga site' }
+      { hid: 'frizadiga site', name: 'frizadiga site', content: 'frizadiga site' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/hiu-favicon.png' }
