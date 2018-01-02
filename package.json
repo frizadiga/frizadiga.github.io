@@ -19,7 +19,7 @@
     "precommit": "npm run lint",
     "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
-    "deploy": "gh-pages -d dist -b master",
+    "deploy": "gh-pages-clean && gh-pages -d dist -b master",
     "deploy2": "push-dir --dir=dist --branch=master --cleanup",
     "gd": "npm run generate && npm run deploy"
   },
