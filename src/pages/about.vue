@@ -1,7 +1,7 @@
 <template>
 
   <div class="wrapper">
-    <h1 class="title">backpages</h1>
+    <h1 class="title">About</h1>
     
     <div class="container" id="content">
      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fugit at hic repellendus soluta quia inventore perferendis fuga neque, similique eaque sed illo harum fugiat ipsam, omnis commodi veritatis accusantium reprehenderit dolor! Facere natus architecto voluptas consequatur placeat excepturi ea recusandae delectus, ipsa repellendus ab modi eaque rerum, molestiae labore, autem dolorem aliquid doloribus dolore corporis quia. Nulla ratione excepturi necessitatibus nisi culpa architecto, enim natus. Libero minima excepturi aperiam enim necessitatibus quo reiciendis, illum!</p>
@@ -28,7 +28,7 @@
     margin:48px;
   }
   .container{
-    max-width: 700px;
+    max-width: 500px;
     padding: 16px 8px;
     margin: auto;
   }

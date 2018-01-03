@@ -9,6 +9,7 @@
         {{subtitle}}
       </h2>
       <div class="links">
+        <nuxt-link to="/about" class="button--grey">About</nuxt-link>
         <nuxt-link to="/backpages" class="button--grey">Backpages</nuxt-link>
         <a href="https://github.com/frizadiga" class="button--grey">Github</a>
       </div>

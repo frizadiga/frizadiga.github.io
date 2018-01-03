@@ -6,6 +6,7 @@
 <style scoped>
   img{
     width: 10vw;
+    min-width: 130px;
     border-radius: 50%;
   }
 </style>
