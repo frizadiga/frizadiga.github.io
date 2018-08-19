@@ -9,9 +9,15 @@
         {{subtitle}}
       </h2>
       <div class="links">
-        <nuxt-link to="/about" class="button--grey">About</nuxt-link>
-        <nuxt-link to="/backpages" class="button--grey">Backpages</nuxt-link>
-        <a href="https://github.com/frizadiga" class="button--grey">Github</a>
+        <nuxt-link to="/about" class="button--green">
+          About
+        </nuxt-link>
+        <a href="https://github.com/frizadiga" class="button--grey">
+          Github
+        </a>
+        <a href="https://www.linkedin.com/in/frizadiga" class="button--grey">
+          Linkedin
+        </a>
       </div>
     </div>
   </section>
