@@ -65,6 +65,10 @@ export default {
 }
 
 .links {
+  display: grid;
+  grid: auto / repeat(3, 1fr);
+  grid-gap: 8px;
   padding-top: 15px;
+  max-width: 480px;
 }
 </style>
