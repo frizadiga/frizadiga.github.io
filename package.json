@@ -24,7 +24,7 @@
     "gd": "npm run generate && npm run deploy"
   },
   "dependencies": {
-    "nuxt": "^1.4.2"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
