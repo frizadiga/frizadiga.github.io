@@ -1,3 +1,18 @@
+
+<script>
+import frizaPic from '~/components/friza-pic.vue'
+
+export default {
+  // transition: '',
+  components: {
+    frizaPic
+  },
+  data: () => ({
+    subtitle: 'Simplifying Things...'
+  })
+}
+</script>
+
 <template>
   <section class="container">
     <div>
@@ -22,20 +37,6 @@
     </div>
   </section>
 </template>
-
-<script>
-import frizaPic from '~/components/friza-pic.vue'
-
-export default {
-  // transition: '',
-  components: {
-    frizaPic
-  },
-  data: () => ({
-    subtitle: 'Simplifying Things...'
-  })
-}
-</script>
 
 <style scoped>
 .container {
