@@ -18,7 +18,7 @@ export default {
     <div>
       <friza-pic/>
       <h1 class="title">
-        <b>friza</b>diga
+        <b>friza</b>digates
       </h1>
       <h2 class="subtitle">
         {{subtitle}}

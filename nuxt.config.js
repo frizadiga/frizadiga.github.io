@@ -44,12 +44,7 @@
           exclude: /(node_modules)/,
         })
       }
-      if (ctx.isDev) {
-        config.output.publicPath = './_nuxt/'
-      } else {
-        config.output.publicPath = './'
-
-      }
     },
+    // publicPath: process.env.NODE_ENV === 'production' ? './' : './_nuxt/',
   }
 }
