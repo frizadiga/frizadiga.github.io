@@ -1,50 +1,68 @@
-  module.exports = {
-  // ** Mode - Single Page Application mode
-  // mode: 'spa',
+const pkg = require('./package')
 
-  // ** Router 
-
-  // router: {
-  //   base: 'frizadiga.github.io'
-  // },
-
-  // ** Config
+module.exports = {
+  mode: 'spa',
   srcDir: 'src/',
 
-  css: [
-  // ** Transitions Routes
-    'assets/main.css',
-  ],
-  
-  // ** Headers of the page
+  /*
+  ** Headers of the page
+  */
   head: {
-    title: 'frizadiga',
+    title: pkg.name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'frizadiga site' }
+      { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/hiu-favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  
-  // ** Customize the progress bar color
+
+  /*
+  ** Customize the progress-bar color
+  */
   loading: { color: '#35495e' },
-  
-  // ** Build configuration
+
+  /*
+  ** Global CSS
+  */
+  css: [
+    // ** Transitions Routes
+    'assets/main.css'
+  ],
+
+  /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: [
+  ],
+
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+    '@nuxtjs/pwa'
+  ],
+
+  /*
+  ** Build configuration
+  */
   build: {
-    // ** Run ESLint on save
-    extend (config, ctx) {
+    publicPath: process.env.NODE_ENV === 'production' ? './' : '',
+    /*
+    ** You can extend webpack config here
+    */
+    extend(config, ctx) {
+      // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/,
+          exclude: /(node_modules)/
         })
       }
-    },
-    // publicPath: process.env.NODE_ENV === 'production' ? './' : './_nuxt/',
+    }
   }
 }

@@ -16,12 +16,12 @@ export default {
 <template>
   <section class="container">
     <div>
-      <friza-pic/>
+      <friza-pic />
       <h1 class="title">
         <b>friza</b>digates
       </h1>
       <h2 class="subtitle">
-        {{subtitle}}
+        {{ subtitle }}
       </h2>
       <div class="links">
         <nuxt-link to="/about" class="button--green">
