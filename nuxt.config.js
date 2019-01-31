@@ -1,4 +1,13 @@
-module.exports = {
+  module.exports = {
+  // ** Mode - Single Page Application mode
+  // mode: 'spa',
+
+  // ** Router 
+
+  // router: {
+  //   base: 'frizadiga.github.io'
+  // },
+
   // ** Config
   srcDir: 'src/',
 
@@ -35,6 +44,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    // ** Public Path
+    publicPath: './'
   }
 }
