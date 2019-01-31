@@ -36,16 +36,20 @@
   build: {
     // ** Run ESLint on save
     extend (config, ctx) {
-      if (ctx.dev && ctx.isClient) {
+      if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
         })
       }
+      if (ctx.isDev) {
+        config.output.publicPath = './_nuxt/'
+      } else {
+        config.output.publicPath = './'
+
+      }
     },
-    // ** Public Path
-    publicPath: './'
   }
 }
