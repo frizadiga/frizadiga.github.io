@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import Logo from '@/components/Logo.vue'
+import FrizaPic from '@/components/friza-pic.vue'
 
-describe('Logo', () => {
+describe('friza-pic', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(Logo)
+    const wrapper = mount(FrizaPic)
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
 })
