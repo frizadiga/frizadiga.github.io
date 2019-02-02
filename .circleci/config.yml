@@ -27,5 +27,5 @@ jobs:
           name: Run Test
           command: npm test
       - deploy:
-        - name: Deploy
-        - command: bash ./.circleci/deploy.sh
+          name: Deploy
+          command: bash ./.circleci/deploy.sh
