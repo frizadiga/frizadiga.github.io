@@ -1,6 +1,4 @@
-set -o nounset
-set -o errexit
-set -o xtrace
+set -e
 
 if [$CIRCLE_BRANCH == $SOURCE_BRANCH]; then
   git config --global user.name $GH_NAME
