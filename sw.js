@@ -10,16 +10,16 @@ workbox.precaching.precacheAndRoute([
     "revision": "19bdeb4c816c7b83fb9ea169cccbe3e3"
   },
   {
-    "url": "/./5590a6830e528ac27964.js",
-    "revision": "bdeb56c7020b744cfe81118854906675"
-  },
-  {
     "url": "/./68634194c1929a052a78.js",
     "revision": "e034be7d11152565468d53d891b66732"
   },
   {
-    "url": "/./ce567d442013a56ac5de.js",
-    "revision": "0c19ced95d55aa4d005ee8149af2de3b"
+    "url": "/./d32b55516cbb2f1c2475.js",
+    "revision": "9eb4ed0df1af4190acccbc56918af744"
+  },
+  {
+    "url": "/./f0525a9bee443d3cb329.js",
+    "revision": "2876a5811d25e3fc84f7527310b942f5"
   }
 ], {
   "cacheId": "frizadiga-site",
