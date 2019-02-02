@@ -1,4 +1,5 @@
 set -e
+echo $CIRCLE_BRANCH $SOURCE_BRANCH $CIRCLE_REPOSITORY_URL
 if [[ $CIRCLE_BRANCH == $SOURCE_BRANCH ]]; then
   git config --global user.name $GH_NAME
   git config --global user.email $GH_EMAIL
