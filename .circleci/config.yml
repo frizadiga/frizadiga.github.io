@@ -20,9 +20,9 @@ jobs:
           name: Install Dependencies
           command: npm install
       - save_cache:
-        - paths:
+          paths:
           - node_modules
-          keys: v1-deps-{{ checksum "package.json" }}
+          key: v1-deps-{{ checksum "package.json" }}
       - run:
           name: Run Test
           command: npm test
