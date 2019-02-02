@@ -10,6 +10,8 @@ jobs:
     environtment:
       - SOURCE_BRANCH: src
       - TARGET_BRANCH: master
+      - GH_NAME: frizadiga
+      - GH_EMAIL: frizadiga@gmail.com
     steps: 
       - checkout
       - restore_cache:
