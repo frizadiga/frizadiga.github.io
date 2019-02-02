@@ -27,6 +27,7 @@
   }
   .wrapper{}
   .title{
+    color: #35495e;
     text-align: center;
     margin:48px;
   }
