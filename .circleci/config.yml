@@ -7,7 +7,7 @@ jobs:
     docker:
       - image: circleci/node:10
     working_directory: ~/frizadiga.github.io
-    environtment:
+    environment:
       - SOURCE_BRANCH: src
       - TARGET_BRANCH: master
       - GH_NAME: frizadiga
