@@ -1,6 +1,5 @@
 set -e
-
-if [[ $CIRCLE_BRANCH == $SOURCE_BRANCH ]]; then
+if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
   git config --global user.name $GH_NAME
   git config --global user.email $GH_EMAIL
 
